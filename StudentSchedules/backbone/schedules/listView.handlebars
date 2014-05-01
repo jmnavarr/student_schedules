@@ -1,0 +1,29 @@
+<table class="table" width="100%">
+	<tr>
+		{{#each headers}}
+			<th>{{this}}</th>
+		{{/each}}
+	</tr>
+	{{#each rows}}
+		<tr>
+      <td>
+        {{name}}
+      </td>
+      <td>
+        <table class="table">
+          {{#each schedule}}
+            {{#if shared}}
+              <tr>
+                <td class="schedule sharedSchedule">Period {{period}}: {{className}} with {{teacherName}}</td>
+              </tr>
+            {{else}}
+              <tr>
+                <td class="schedule">Period {{period}}: {{className}} with {{teacherName}}</td>
+              </tr>
+            {{/if}}
+          {{/each}}
+        </table>
+      </td>
+  </tr>
+	{{/each}}
+</table>

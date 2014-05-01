@@ -1,0 +1,11 @@
+{
+  "name": "SchedulesProject",
+  "dependencies": {
+    "grunt": "*",
+    "grunt-contrib-handlebars": "*",
+    "handlebars": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4"
+  }
+}

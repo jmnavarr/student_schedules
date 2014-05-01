@@ -1,0 +1,14 @@
+﻿body {
+}
+
+#namesbox {
+    margin-top: 8px;
+}
+#classheader {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sharedSchedule {
+    background: #ccc;
+}
